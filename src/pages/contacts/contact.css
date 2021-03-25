@@ -1,0 +1,18 @@
+/* style page contact */
+#main{
+  background-color: rgb(241, 241, 241);margin: 20px;padding: 5px; padding-bottom: 5%;
+}
+.mainLeft{
+  width: 70%;
+}
+h3{
+  border-bottom: 1px solid black;
+}
+p{
+  color: black;  padding:5px;
+}  
+#cool{
+  height: 70vh;
+  background-color: aqua;
+}
+#con{position: absolute;}

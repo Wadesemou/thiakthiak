@@ -1,0 +1,119 @@
+
+body{
+  background-color: white;
+}
+#main{
+  background-color:white;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  position:relative;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+#maintop{
+  position:relative;
+  background-color: rgb(5, 117, 182);
+  height:85vh;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+}
+#top{
+  position: relative;
+  /* background-color: red; */
+  width: 100%;
+  height:85vh;
+}
+#blockServices{
+  background: transparent; 
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  border: none;
+  top: 25%;
+  left: 5%;
+  box-shadow: 0.5em -0.4em rgb(75, 73, 95), -1em 0.4em rgb(35, 83, 63); 
+}
+#icons{
+  font-size: 75px;
+  margin-left:15px;
+  border-bottom : 1px solid black;
+  box-shadow: -0.2em 0 .4em rgb(35, 83, 63);
+  background-color: rgb(86, 226, 214), transparent;
+}
+#carrousel{
+  position: relative;
+}
+#carrousel img{
+  width: 100%;
+  height: 85vh;
+}
+#maintop #servicesIcon {
+  position:absolute;
+  bottom: 0%;
+  text-align: center;
+  /* font-size: 45px; */
+  /* background-color: blue; */
+  width:100%;
+}
+#tool{
+  font-size:50px;
+  background:transparent;
+  width: 75px;
+  margin-left:15px;
+  height:60px; 
+}
+#tool:hover{
+  transform: translateY(4px);
+  box-shadow: 8px 8px 5px 1px rgba(12, 12, 12, 0.337);
+  cursor: pointer;
+  background-color: rgb(251, 250, 255);
+  margin-bottom: 15px;
+  /* border-bottom: 15px solid black; */
+}
+#corpsTitle{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 15px;
+  background-color: #4caf50;
+}
+/* #corpTitle: */
+#corServices{
+  display: flex;
+  flex-direction: row;
+  /* overflow-y: hidden; */
+  background-color:aqua;
+}
+#money, #recieve,#pub{
+  width: 300px;
+  height: 300px;
+  border-radius:50%;
+  margin: auto;
+}
+#imgService img{
+  width: 300px;
+  height: 300px;
+  /* transform: scale(1.5); */
+  scale: -15;
+  border-radius:50%;
+}
+#imgService img:hover{
+  background: rgba(255,0,0,.25);
+  transform: scale(1.5);
+}
+#describ{
+  position: relative;
+}
+#imgService img:hover{
+  /* #describ{
+    position:absolute;
+  } */
+}

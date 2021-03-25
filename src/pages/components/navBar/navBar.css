@@ -1,0 +1,67 @@
+header {
+  background-color: var(--surface) ;
+  height: var(--header-height);
+}
+
+header nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-gap: 10px;
+  align-items: center;
+  grid-template-columns: 25% 1fr 25%;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--plane-12);
+  position:relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--on-surface);
+}
+
+nav #logo {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+nav > .nav-links {
+  width: 100%;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav .link {
+  display: block;
+  height: var(--button_height);
+  line-height: var(--button_height);
+  padding: 0 12px;
+  margin: 8px;
+  border-radius: 6px;
+}
+
+.nav-links .link.active {
+  background-color: rgba(108, 32, 216, 0.1);
+}
+
+nav .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions .link[href="/signin"] {
+  background-color: var(--primary);
+  color: var(--on_primary);
+}
+
+.actions .link[href="/signup"] {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}

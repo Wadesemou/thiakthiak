@@ -1,0 +1,357 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* overflow: hidden; */
+  /* background-color: blueviolet; */
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* color: white; */
+}
+* ::-webkit-scrollbar{
+  right: 0px;
+  width:7px;
+  border-radius: 25px;
+  display: block;
+  background-color: rgb(48, 43, 89);
+}
+
+* ::-webkit-scrollbar-thumb{
+  right: 0px;
+  border-radius: 25px;
+  width:6px;
+  display: ruby-base;
+  background-color: rgb(86, 91, 131);
+}
+
+
+/* ::web */
+#head{
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  /* box-shadow: 0.2em 1em green; */
+ 
+}
+#option {
+  display:flex;
+  flex-direction:row;
+  width: 250px;
+}
+#mine{
+  display: flex;
+  flex-direction: row;
+
+}
+ #mine:hover{
+  display:flex;
+  flex-direction:row;
+  /* width: 250px; */
+  background-color:#36383a;
+  border-radius: 35px;
+  cursor: pointer;
+  padding: 0px;
+}
+#option #mine p{
+  font-size:20px;
+  margin:10px;
+  color:white;
+  text-transform: capitalize;
+  /* background-color: #282b2e; */
+}
+#avatar img{
+  width:45px;
+  border-radius:50%;
+  margin: 5px;
+}
+/* #avatar{
+  background-color: #282b2e;
+} */
+#sequance{
+  display:flex;
+  flex-direction:row;
+   background-color: #282b2e;
+}
+
+#icon{
+  color: #606366;
+  cursor: pointer;
+  font-size: 40px;
+  margin: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #1e2022;
+}
+#icon:hover{
+  cursor: pointer;
+  font-size: 40px;
+  margin: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color:cadetblue;
+  background-color: #36383a;
+}
+#recherche{
+  position: absolute;
+  right: 0px;
+  border-radius:12px;
+  height: 40px;
+  display:flex;
+  /* width: 230px; */
+  background-color: #1e2022;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#recherche input{
+  background-color:#606770;
+  border-radius: 12px;
+  height: 30px;
+  border:none;
+  width:220px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+#recherche input:focus{
+  box-decoration-break: clone;
+  background-color:#606770;
+  border-radius: 12px;
+  height: 30px;
+  border:none;
+  width:220px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+#recherche #iconsearch{
+  /* font-size: 30px; */
+  background-color:transparent;
+  border-radius: 12px;
+  color: #606366;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 5px;  
+  text-align:center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#recherche #iconsearch:focus{
+  color:white;
+}
+#recherche #iconsearch:hover{
+  background-color:transparent;
+  border-radius: 12px;
+  color:cadetblue;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 5px;
+  text-align:center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#iconMenu{
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 30px;
+}
+#conteneur{
+  display: flex;
+  flex-direction: row;
+  background-color: #282b2e;
+}
+#Opmenu{
+  width: 350px;
+  display:flex;
+  flex-direction:column;
+  /* height: 89vh; */
+  background-color: #282b2e;
+}
+#bouton{
+  width: 250px;
+  display:flex;
+  flex-direction:column;
+  /* height: 89vh; */
+  /* text-align: center; */
+  /* background-color:rgb(163, 145, 145);   */
+}
+#prodtype{
+  display:flex;
+  flex-direction:row;
+  cursor: pointer;
+  padding: 25px;
+}
+#prodtype:hover{
+  background-color:#36383a;
+  display:flex;
+  flex-direction:row;
+  cursor: pointer;
+  padding: 25px;
+}
+#rightMtitle{
+  text-decoration: underline;
+  text-align: center;
+}
+#prodtype p{
+ font-size: 20px;
+ margin: 15px;
+ margin-left: 0px;
+ color:white;
+ cursor: pointer;
+}
+#prodtype span{
+  color: #606366;
+  margin: 15px;
+  position: absolute;
+  right: 0px;
+  border-radius: 25%;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+}
+#prodtype span:hover{
+  color:cadetblue;
+  margin: 15px;
+  position: absolute;
+  right: 0px;
+  border-radius: 25%;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+}
+#boutonIcon:hover{
+  background-color:#36383a;
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+
+#bouton #boutonIcon span{
+  color: #606366;
+  cursor: pointer;
+  font-size: 45px;
+  margin: 1.5vh;
+  padding:3px;
+}
+
+#boutonIcon{
+  display:flex;
+  flex-direction:row
+}
+#boutonIcon p{
+ margin-top:15px;
+ text-align: center;
+ font-size:30px;
+ color: white;
+}
+#bouton #boutonIcon span:hover{
+  color:cadetblue;
+  cursor: pointer;
+  font-size: 45px;
+  margin: 1.5vh;
+  padding:3px;
+}
+#page{
+  width: 100%;
+  height:89vh;
+  background-color: #363f4b;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* overflow-x: scroll; */
+  /* background: center silver url('https://material.io/resources/icons/?search=deliver&icon=delivery_dining'); */
+  /* background-repeat: no-repeat; */
+  /* -moz-background-inline-policy: each-box; */
+ 
+}
+#page #title{
+ font-size: 45px;
+ text-decoration: none;
+ font-family: 'Times New Roman', Times, serif;
+  
+}
+#page #prod{
+  display: flex;
+  background-color: #fff;
+  /* overflow-y: scroll; */
+  margin: 15px;
+  background-color: silver;
+}
+#prod #lineconteneur {
+  margin:25px;
+  height: 300px;
+  width: 250px;
+  background-color: green;
+  border-radius: 12px;
+  position: relative;
+}
+#prod #lineconteneur:hover{
+  margin:15px;
+  height: 360px;
+  width: 270px;
+  background-color: green;
+  border-radius: 12px;
+}
+#prod #lineconteneur #img {
+  margin-top:10px;
+  margin-left: 10px;
+  height: 300px;
+  width: 250px;
+  border-radius: 12px ;
+  border: 1px solid black;
+}
+#prod #lineconteneur #img {
+  margin-top:10px;
+  margin-left: 10px;
+  border-radius: 12px ;
+  height: 230px;
+  width: 250px;
+  border: 1px solid black;
+}
+#prod #lineconteneur #img img{
+  border-radius: 12px ;
+  margin-bottom: 0px;
+  height: 300px;
+  width: 250px;
+  scale: 1.5;
+  
+}
+#prod #lineconteneur #img img:hover{
+  border-radius: 12px ;
+  margin-bottom: 0px;
+  height: 300px;
+  width: 250px;
+  /* z-index: -1; */
+}
+#prod #lineconteneur #imgoption {
+  /* display: inline; */
+  background-color: transparent;
+  position: absolute;
+  bottom: 5px;
+  /* display: run-in; */
+}
+#prod #lineconteneur #imgoption:hover {
+  /* display: ; */
+}#prod #lineconteneur #imgtext {
+  /* display: inline; */
+  background-color: transparent;
+  position: absolute;
+  bottom: 45px;
+  /* z-index: -1; */
+}
+
+#prod #lineconteneur #imgoption span{
+  margin-left:15px;
+  font-size:35px;
+  color:white;
+  background-color:green;
+  cursor: pointer;
+  /* z-index: -1; */
+}
+#prod #lineconteneur #imgoption span:hover{
+  margin-left:15px;
+  font-size:35px;
+  color:white;
+  background-color:green;
+}
+
